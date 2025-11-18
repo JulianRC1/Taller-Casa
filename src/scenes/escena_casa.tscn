@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ojmcov40g5bh"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_tmd4w"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dvpbf"]
+points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
+
+[node name="Escena Casa" type="Node3D"]
+
+[node name="Plano" type="MeshInstance3D" parent="."]
+transform = Transform3D(15, 0, 0, 0, 0.2, 0, 0, 0, 15, 0, 0, 0)
+mesh = SubResource("BoxMesh_tmd4w")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Plano"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Plano/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_dvpbf")
