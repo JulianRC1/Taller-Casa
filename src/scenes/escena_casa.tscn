@@ -19,7 +19,7 @@ sky = SubResource("Sky_oot3o")
 [node name="Escena Casa" type="Node3D"]
 
 [node name="Plano" type="MeshInstance3D" parent="."]
-transform = Transform3D(15, 0, 0, 0, 0.2, 0, 0, 0, 15, 0, 0, 0)
+transform = Transform3D(30, 0, 0, 0, 0.2, 0, 0, 0, 30, 0, 0, 0)
 mesh = SubResource("BoxMesh_tmd4w")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Plano"]
@@ -27,14 +27,11 @@ mesh = SubResource("BoxMesh_tmd4w")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plano/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_dvpbf")
 
-[node name="Character" parent="Plano" instance=ExtResource("1_dvpbf")]
-transform = Transform3D(0.06666667, 0, 0, 0, 5, 0, 0, 0, 0.06666667, -0.010894267, 7.3272634, 0.1427042)
-
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8173065, 10.632085)
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_w8muw")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.18484333, 0.982768, 0, -0.982768, 0.18484333, 0, 0, 0.3904047)
+transform = Transform3D(1, 0, 0, 0, -0.048326805, 0.99883157, 0, -0.99883157, -0.048326805, 0, 0, 0.3904047)
+
+[node name="Character" parent="." instance=ExtResource("1_dvpbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4730482, 13.561258)
