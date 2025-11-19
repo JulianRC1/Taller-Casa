@@ -3669,7 +3669,7 @@ script = ExtResource("1_0wev1")
 shape = SubResource("CapsuleShape3D_0wev1")
 
 [node name="Pivot" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.9743111, 0.22520614, 0, -0.22520614, 0.9743111, 0, 1.5381874, 2.7903943)
+transform = Transform3D(1, 0, 0, 0, 0.8798145, 0.47531712, 0, -0.47531712, 0.8798145, 0, 1.2908148, 1.9572892)
 
 [node name="SpringArm3D" type="SpringArm3D" parent="Pivot"]
 
