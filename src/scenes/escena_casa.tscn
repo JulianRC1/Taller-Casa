@@ -19,7 +19,7 @@ sky = SubResource("Sky_oot3o")
 [node name="Escena Casa" type="Node3D"]
 
 [node name="Plano" type="MeshInstance3D" parent="."]
-transform = Transform3D(30, 0, 0, 0, 0.2, 0, 0, 0, 30, 0, 0, 0)
+transform = Transform3D(30, 0, 0, 0, 0.2, 0, 0, 0, 30, 0, 0, -13.018522)
 mesh = SubResource("BoxMesh_tmd4w")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Plano"]
@@ -34,4 +34,4 @@ environment = SubResource("Environment_w8muw")
 transform = Transform3D(1, 0, 0, 0, -0.048326805, 0.99883157, 0, -0.99883157, -0.048326805, 0, 0, 0.3904047)
 
 [node name="Character" parent="." instance=ExtResource("1_dvpbf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4730482, 13.561258)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.473, 0)
