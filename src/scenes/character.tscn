@@ -1,9 +1,9 @@
 [gd_scene load_steps=15 format=4 uid="uid://cwwmgkyyxtdm"]
 
 [ext_resource type="Script" uid="uid://b1sp6qn6s5meg" path="res://src/scenes/character.gd" id="1_0wev1"]
-[ext_resource type="Texture2D" uid="uid://dnpw112f4nv4l" path="res://src/assets/player_Ch43_1001_Diffuse.png" id="2_tiswf"]
-[ext_resource type="Texture2D" uid="uid://yrkrs6eilf60" path="res://src/assets/player_Ch43_1001_Glossiness.png" id="3_algqs"]
-[ext_resource type="Texture2D" uid="uid://beqvdau7od2fw" path="res://src/assets/player_Ch43_1001_Normal.png" id="4_nn5mu"]
+[ext_resource type="Texture2D" uid="uid://dnpw112f4nv4l" path="res://src/assets/player/player_Ch43_1001_Diffuse.png" id="2_tiswf"]
+[ext_resource type="Texture2D" uid="uid://yrkrs6eilf60" path="res://src/assets/player/player_Ch43_1001_Glossiness.png" id="3_algqs"]
+[ext_resource type="Texture2D" uid="uid://beqvdau7od2fw" path="res://src/assets/player/player_Ch43_1001_Normal.png" id="4_nn5mu"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0wev1"]
 

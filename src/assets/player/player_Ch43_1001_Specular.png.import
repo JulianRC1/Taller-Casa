@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnydmpylkyvff"
-path="res://.godot/imported/player_Ch43_1001_Specular.png-f8e483d27789fffdceea9f502b8560ef.ctex"
+path="res://.godot/imported/player_Ch43_1001_Specular.png-b370922937f8d2df4e78ba7ef4ed51d4.ctex"
 metadata={
 "vram_texture": false
 }
@@ -13,8 +13,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://src/assets/player_Ch43_1001_Specular.png"
-dest_files=["res://.godot/imported/player_Ch43_1001_Specular.png-f8e483d27789fffdceea9f502b8560ef.ctex"]
+source_file="res://src/assets/player/player_Ch43_1001_Specular.png"
+dest_files=["res://.godot/imported/player_Ch43_1001_Specular.png-b370922937f8d2df4e78ba7ef4ed51d4.ctex"]
 
 [params]
 

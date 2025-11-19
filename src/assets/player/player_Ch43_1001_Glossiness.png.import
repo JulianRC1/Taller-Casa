@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnpw112f4nv4l"
-path.s3tc="res://.godot/imported/player_Ch43_1001_Diffuse.png-b8ff8d6e9c5a54795ae50a1b8c1ebf3f.s3tc.ctex"
+uid="uid://yrkrs6eilf60"
+path.s3tc="res://.godot/imported/player_Ch43_1001_Glossiness.png-6e839f3c02756a0a6c05ba4a71230451.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "503dabd334e5818f191aeca384d14c54"
+"md5": "6906abcac523406215045a122393bf40"
 }
 
 [deps]
 
-source_file="res://src/assets/player_Ch43_1001_Diffuse.png"
-dest_files=["res://.godot/imported/player_Ch43_1001_Diffuse.png-b8ff8d6e9c5a54795ae50a1b8c1ebf3f.s3tc.ctex"]
+source_file="res://src/assets/player/player_Ch43_1001_Glossiness.png"
+dest_files=["res://.godot/imported/player_Ch43_1001_Glossiness.png-6e839f3c02756a0a6c05ba4a71230451.s3tc.ctex"]
 
 [params]
 
