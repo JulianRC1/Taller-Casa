@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://ojmcov40g5bh"]
+[gd_scene load_steps=8 format=3 uid="uid://ojmcov40g5bh"]
 
 [ext_resource type="PackedScene" uid="uid://cwwmgkyyxtdm" path="res://src/scenes/character.tscn" id="1_dvpbf"]
+[ext_resource type="PackedScene" uid="uid://dxtv5sarhno4s" path="res://src/scenes/casa.tscn" id="2_oot3o"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_tmd4w"]
 
@@ -35,3 +36,6 @@ transform = Transform3D(1, 0, 0, 0, -0.048326805, 0.99883157, 0, -0.99883157, -0
 
 [node name="Character" parent="." instance=ExtResource("1_dvpbf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.473, 0)
+
+[node name="Casa" parent="." instance=ExtResource("2_oot3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.561284)
