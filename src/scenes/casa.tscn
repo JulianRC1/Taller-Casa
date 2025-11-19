@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxtv5sarhno4s"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_xvav8"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_qmvyo"]
+points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
+
+[node name="Casa" type="Node3D"]
+
+[node name="Suelo" type="MeshInstance3D" parent="."]
+transform = Transform3D(12, 0, 0, 0, 0.2, 0, 0, 0, 12, 0, 0, 0)
+mesh = SubResource("BoxMesh_xvav8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Suelo"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Suelo/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmvyo")
+
+[node name="2dopiso" type="MeshInstance3D" parent="."]
+transform = Transform3D(12, 0, 0, 0, 0.2, 0, 0, 0, 12, 0, 4.9402356, 0)
+mesh = SubResource("BoxMesh_xvav8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="2dopiso"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="2dopiso/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmvyo")
+
+[node name="Pared1" type="MeshInstance3D" parent="."]
+transform = Transform3D(-2.1855695e-07, -0.2, 0, 5, -8.742278e-09, 0, 0, 0, 12, 5.8760805, 2.5543628, 0)
+mesh = SubResource("BoxMesh_xvav8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pared1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pared1/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmvyo")
+
+[node name="Pared2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-2.1855695e-07, -0.2, 0, 5, -8.742278e-09, 0, 0, 0, 12, -5.8681545, 2.5543628, 0)
+mesh = SubResource("BoxMesh_xvav8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pared2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pared2/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmvyo")
+
+[node name="Pared3" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.553427e-15, 8.742278e-09, 12, 5, -8.742278e-09, 0, 2.1855695e-07, 0.2, -5.2453663e-07, 0.054118633, 2.5543628, -5.9767194)
+mesh = SubResource("BoxMesh_xvav8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Pared3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pared3/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmvyo")
